@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.nombre{
+    float: left;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.menu a{
+
+  display: inline-block;
+  
+  padding: 1500px 100px;
+  
+  line-height: normal;
+  
+  text-decoration: none;
+  
+  color: rgb(0, 0, 0);
+  
+  transition: all 0.3s ease;
+  
+  border-bottom: 2px solid transparent;
+  
+  font-size: 15px;
+
+}
+  
+#check{
+  
+display: none;
+  
+}
+  
+  
+  
+#check:checked ~ .menu{
+  
+width: 400px;
+  
+}
+.menu{
+
+position: fixed;
+      
+top: 600px;
+      
+width: 110px;
+      
+height: 100vh;
+      
+background: #2D3E50;
+      
+transition: all 500ms cubic-bezier(1,0,0,1);
+      
+transition-timing-function: cubic-bezier(1,0,0,1);
+      
+overflow: hidden;
+      
+}
+      
+.menu li{
+      
+list-style: none;
+      
+padding: 16px;
+      
+color: rgb(0, 0, 0);
+      
+cursor: pointer;
+      
+transition: all 300ms;
+      
+display: block;
+      
+width: 400px;
+      
+}
+           
+.menu li:hover{
+      
+background: rgba(0,0,0,0.2);
+      
+}
+              
+nav ul ul {
+      
+display: none;
+      
+}
+nav ul li:hover > ul {
+
+display: block;
+          
+position: absolute; top: 7%;
+                      
+}
+          
+.box-shadow-menu {
+          
+position: absolute;
+          
+padding-left: 11.25em;
+          
+}
+                      
+.box-shadow-menu:before {
+          
+content: "";
+          
+position: absolute;
+          
+left: 0;
+          
+top: 0.25em;
+          
+width: 1em;
+          
+height: 0.15em;
+          
+background: black;
+          
+box-shadow:
+          
+0 0.25em 0 0 black,
+          
+0 0.5em 0 0 black;
+          
+}
+.mi_menu a{
+
+top: 0px;
+              
+display: inline-block;
+              
+padding: 15px 20px;
+              
+line-height: normal;
+              
+text-decoration: none;
+              
+color: rgb(0, 0, 0);
+              
+transition: all 0.3s ease;
+              
+border-bottom: 2px solid transparent;
+              
+font-size: 15px;
+              
+}                
+              
+.mi_menu{
+              
+float: right;
+              
+line-height: 20px;
+              
+}
+                             
+.mi_menu a:hover{
+              
+border-bottom: 2px solid #8d03ff;
+              
+padding: 5px 10px;
+            
+}
+.img-circle{
+  background-color: rgb(121, 79, 32);
+  border-radius: 50%;
+}
+.servicios{
+  text-align: center;
+}
+.servicios a{
+  text-decoration: none;
+  color: black;
+}
+.fondo{
+  background-color: rgb(255, 240, 212);
+}
+.contacto{
+  text-align: center;
+  background-color: rgba(226, 165, 124, 0.842);
+}
+.contacto a{
+  font-size: 30px;
+  color: black;
+  padding-left: 50px;
+}
+.creditos{
+  background-color: rgb(255, 240, 212);
+  text-align: center;
+  color: rgb(114, 114, 114);
+}
+.titulos{
+  font-size: 15px;
+  font-family: 'Lora', serif;
+}
